@@ -1,0 +1,17 @@
+# 環境変数・秘密情報（このアプリでは使用していませんが、念のため）
+.env
+.env.local
+.env.*.local
+
+# 依存パッケージ（このアプリはビルド不要のためnode_modulesは通常発生しません）
+node_modules/
+
+# OS・エディタが自動生成するファイル
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ログファイル
+*.log
+npm-debug.log*
